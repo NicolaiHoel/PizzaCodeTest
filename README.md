@@ -1,11 +1,11 @@
-Tanker og antakelser
+## Tanker og antakelser
 
 Antar at man kan få LoyaltyMembership gjennom egne avtaler som ikke krever 3 CompletedOrders
 
 Antar at antall orders aldri kan være negative
 
 
-Hva ville jeg gjort med mer tid/veien videre:
+## Hva ville jeg gjort med mer tid/veien videre:
 
 Legge til et kø system, enten oppå TCP-bindingen eller istedenfor. F.eks Kafka eller Azure Eventhub
 
@@ -13,7 +13,7 @@ Legge til en database for permantent lagring og sett på muligheten for å kvitte 
 
 Skrevet TESTER. Viktig med dekkende enhetstester for systemet.
 
-Implementere Features:
+## Implementere Features:
 
 Det ble lagt til et nytt felt i Eventet for å ta i mot ekstra data. Planen er å
  - Bruke den datan til å lagre informasjon om PizzaTyper og CustomerFeedback
