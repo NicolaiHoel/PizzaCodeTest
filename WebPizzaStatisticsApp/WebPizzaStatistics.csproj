@@ -11,9 +11,4 @@
     <PackageReference Include="ConsoleTables" Version="2.6.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="BusinessLogic\" />
-    <Folder Include="DisplayLogic\" />
-  </ItemGroup>
-
 </Project>

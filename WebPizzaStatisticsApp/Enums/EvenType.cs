@@ -1,6 +1,7 @@
-﻿namespace WebPizzaStatistics.Models;
+﻿namespace WebPizzaStatistics.Enums;
 
-public enum EventType    {
+public enum EventType
+{
     PizzaOrdered,
     CustomerCreated,
     CustomerAbandonedOrder,
@@ -9,5 +10,6 @@ public enum EventType    {
     DeliveryDelivered,
     PaymentReceived,
     CustomerFeedbackReceived,
-    LoyaltySignup
+    LoyaltySignup,
+    LoyaltyPointsEarned
 }
